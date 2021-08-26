@@ -4,18 +4,18 @@ import AppContainer from './App';
 
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter , HashRouter } from "react-router-dom";
 
 import store from "./redux/store";
 import { Provider } from "react-redux";
 
 ReactDOM.render(
   <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
           <Provider store={store}>
               <AppContainer/>
           </Provider>
-      </BrowserRouter>
+      </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
