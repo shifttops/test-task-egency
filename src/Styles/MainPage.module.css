@@ -1,0 +1,82 @@
+.main {
+  color: #fff; }
+  .main__body {
+    background-color: #282c34;
+    padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; }
+
+.pageMain__settings {
+  color: #fff;
+  text-decoration: none;
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 7px;
+  align-items: center;
+  margin-top: 15px;
+  font-size: 14px;
+  transition: all 0.3s ease 0s; }
+  @media (any-hover: hover) {
+    .pageMain__settings:hover {
+      color: #515766; } }
+.pageMain__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+.pageMain__label {
+  font-size: 28px;
+  font-weight: 600; }
+.pageMain__update {
+  transition: all 0.3s ease 0s;
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 8px;
+  align-items: center; }
+  .pageMain__update__icon {
+    display: block; }
+  @media (any-hover: hover) {
+    .pageMain__update:hover {
+      color: #515766; } }
+
+.currencies {
+  margin-top: 20px; }
+  .currencies__empty {
+    font-style: italic; }
+    .currencies__empty a {
+      text-decoration: underline;
+      transition: all 0.3s ease 0s;
+      color: #ffffff; }
+      @media (any-hover: hover) {
+        .currencies__empty a:hover {
+          color: #7ca4b5; } }
+  .currencies__body {
+    flex: 1 1 auto; }
+  .currencies__text {
+    font-size: 18px;
+    margin-bottom: 15px; }
+
+.currency {
+  display: flex;
+  width: 100%;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: space-between; }
+  .currency__body {
+    padding: 7px 25px;
+    display: inline-grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    align-items: center; }
+  .currency__rate {
+    font-style: italic; }
+  .currency__abbr {
+    font-weight: 600; }
+  .currency__date {
+    font-size: 14px; }
+  .currency__name {
+    color: #515766;
+    font-style: italic; }
+
+/*# sourceMappingURL=MainPage.module.css.map */
