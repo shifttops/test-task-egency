@@ -69,6 +69,11 @@
     grid-template-columns: repeat(4, auto);
     gap: 10px;
     align-items: center; }
+    @media (max-width: 450px) {
+      .currency__body {
+        gap: 5px;
+        padding: 5px 15px;
+        font-size: 12px; } }
   .currency__rate {
     font-style: italic; }
   .currency__abbr {

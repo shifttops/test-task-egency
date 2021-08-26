@@ -3,6 +3,9 @@
   .settings__body {
     background-color: #d8f1fc;
     padding: 30px; }
+    @media (max-width: 450px) {
+      .settings__body {
+        padding: 15px; } }
 
 .pageSettings__head {
   display: flex;
@@ -11,6 +14,9 @@
   font-size: 28px;
   font-weight: 600;
   color: #515766; }
+  @media (max-width: 450px) {
+    .pageSettings__title {
+      font-size: 20px; } }
 .pageSettings__label__icon {
   display: inline-grid;
   grid-template-columns: repeat(2, auto);
@@ -21,6 +27,9 @@
   color: #515766;
   text-decoration: none;
   transition: all 0.3s ease 0s; }
+  @media (max-width: 450px) {
+    .pageSettings__label__icon {
+      font-size: 20px; } }
   @media (any-hover: hover) {
     .pageSettings__label__icon:hover {
       color: #7ca4b5; } }
@@ -33,10 +42,16 @@
       color: #7ca4b5; } }
 .pageSettings__content__body {
   padding: 20px; }
+  @media (max-width: 450px) {
+    .pageSettings__content__body {
+      padding: 10px; } }
 
 .myCurrencies__title {
   font-size: 18px;
   margin-bottom: 15px; }
+  @media (max-width: 450px) {
+    .myCurrencies__title {
+      font-size: 15px; } }
 .myCurrencies__content {
   display: inline-block;
   background: linear-gradient(90deg, rgba(53, 54, 96, 0.05), rgba(216, 241, 252, 0.5)); }
