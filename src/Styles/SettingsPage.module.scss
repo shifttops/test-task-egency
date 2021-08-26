@@ -1,0 +1,87 @@
+.settings{
+  color: #515766;
+  &__body{
+    background-color: #d8f1fc;
+    padding: 30px;
+  }
+}
+
+.pageSettings{
+  &__head{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    font-size: 28px;
+    font-weight: 600;
+    color: #515766;
+  }
+  &__label{
+    &__icon{
+      display: inline-grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 8px;
+      align-items: center;
+      font-size: 28px;
+      font-weight: 600;
+      color: #515766;
+      text-decoration: none;
+      transition: all 0.3s ease 0s;
+      @media(any-hover: hover){
+        &:hover{
+          color: #7ca4b5;
+        }
+      }
+    }
+    &__text{
+      color: #515766;
+      text-decoration: none;
+      transition: all 0.3s ease 0s;
+      @media(any-hover: hover){
+        &:hover{
+          color: #7ca4b5;
+        }
+      }
+    }
+  }
+  &__content{
+    &__body{
+      padding: 20px;
+    }
+  }
+}
+
+.myCurrencies{
+  &__title{
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  &__content{
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(53, 54, 96, 0.05), rgba(216, 241, 252, 0.5));
+  }
+  &__sort{
+    margin-bottom: 10px;
+    &__text{
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+}
+
+.currencies{
+  margin-top: 20px;
+  &__title{
+
+  }
+  &__content{
+    padding-top: 15px;
+    margin-top: 15px;
+    display: inline-block;
+    background: linear-gradient(90deg, rgba(53, 54, 96, 0.05), rgba(216, 241, 252, 0.5));
+  }
+  &__search{
+    width: 92%;
+    margin: 0 auto;
+  }
+}
